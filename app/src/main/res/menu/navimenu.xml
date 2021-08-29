@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomNavigationUserMenuId"
+
+        android:icon="@drawable/user"
+        android:title="user"
+        />
+    <item
+        android:id="@+id/bottomNavigationLeadersMenuId"
+        android:icon="@drawable/leaders"
+        android:title="leaders"
+
+        
+       />
+    <item
+        android:id="@+id/bottomNavigationCategorytMenuId"
+        android:icon="@drawable/category"
+        android:title="category"
+        />
+    <item
+        android:id="@+id/bottomNavigationCoursesMenuId"
+        android:icon="@drawable/courses"
+        android:title="courses"
+        />
+    <item
+        android:id="@+id/bottomNavigationMoreMenuId"
+        android:icon="@drawable/more_hor"
+        android:title="more"
+        />
+</menu>
