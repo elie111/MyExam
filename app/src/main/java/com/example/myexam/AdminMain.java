@@ -422,7 +422,7 @@ public class AdminMain extends AppCompatActivity {
 
 
                     BarData data = new BarData(dataSets);
-                    ;
+
 
 
                     barChart.setData(data);
@@ -716,7 +716,8 @@ public class AdminMain extends AppCompatActivity {
 //        }
                     for (int i = 0; i < yDataTotal.length; i++) {
                         if (yDataTotal[i] != 0) {
-                            yEntrysTotal.add(new PieEntry(yDataTotal[i]));
+                            yEntrysTotal.add(new PieEntry(categoryKids.get(xDataTotal[i])));
+                            //yEntrysTotal.add(new PieEntry(yDataTotal[i])); changed ti fix bug 30/8
                             xEntrysTotal.add(xDataTotal[i]);
                         }
                     }
